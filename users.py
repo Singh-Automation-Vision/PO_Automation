@@ -216,7 +216,7 @@ def generate_and_save_po_number(data):
         "po_number": po_number,
         "date": data.get("date"),
         "quote_number": data.get("quote_number"),
-        "project_name": data.get("project_name"),
+        "project_number": data.get("project_number"),
         "vendor_details": data.get("vendor_details"),
         "delivery_address": data.get("delivery_address"),
         "items": data.get("items"),
